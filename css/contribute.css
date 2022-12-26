@@ -519,6 +519,8 @@ header:hover .header-main {
 }
 
 .instructions-list li {
+    padding-top:90%;
+    padding-bottom:0;
     counter-increment: li;
     position: relative;
     padding-left: 1.6em;
@@ -530,7 +532,7 @@ header:hover .header-main {
     content: counter(li);
     position: absolute;
     left: 0;
-    top: 0;
+    top: 58%;
     border-radius: 50%;
     width: 1.6em;
     height: 1.6em;
@@ -544,10 +546,11 @@ header:hover .header-main {
     margin-left:0.01rem
 }
 
-.form-card{
-    margin-left:5%;
-    width: 95%;
+.steps-header{
+    padding-top:10%;
 }
+
+
 @media (max-width: 768px) {
     .custom-box-shadow-down {
         box-shadow: -0.8rem 1rem 0 0.16rem rgba(217, 217, 217, 0) !important;
@@ -581,7 +584,20 @@ header:hover .header-main {
 }
 
 
+.u-shop-button {
+    color:blue;
+    border-color:rgba(0,0,0,0);
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+.card-body-padding{
+    padding: 5% 10% 5% 10%;
+}
 .info-card{
     width:100%;
    text-align:center;
