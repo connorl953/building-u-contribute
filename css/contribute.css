@@ -607,5 +607,16 @@ header:hover .header-main {
     border-radius: 0 !important;
 }
 .header-list li {
-    text-align:left;
+    font-size:1.7rem;
+    text-align:center;
+}
+
+
+@media (max-width: 768px) {
+
+    .header-list li {
+        font-size:calc(1.275rem + .3vw);
+        text-align:center;
+    }
+
 }
