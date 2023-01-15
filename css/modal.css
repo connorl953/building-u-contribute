@@ -1,0 +1,164 @@
+div.modal-content{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border-color:transparent;
+}
+.modal-dialog{
+    padding-top:5%;
+}
+.modal-backdrop {
+    display: none;
+}
+.custom-modal .modal-content {
+    background-color: transparent;
+
+}
+
+.modal-background{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.modal{
+
+}
+.modal-close-button{
+    border-color:transparent;
+    background-color:transparent;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left: 92%;
+    bottom:90%;
+}
+.modal-close-button:hover{
+    border-color:transparent;
+    background-color:transparent;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left: 92%;
+    bottom:90%;
+}
+.modal-close-button:active{
+    border-color:transparent;
+    background-color:transparent;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left: 92%;
+    bottom:90%;
+}
+
+.modal-close-button img{
+    width: 150% !important;
+}
+.modal-s4yt-main-title{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left: 10%;
+    bottom:62%;
+}
+
+.modal-s4yt-contribute-title{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left: 20%;
+    bottom:42%;
+}
+
+.modal-logo{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left:30%;
+    bottom:70%;
+}
+.modal-s4yt-main-title-text{
+    color:#895734;
+    font-size:125%;
+    width:40%;
+    position:absolute;
+    left:12%;
+
+    bottom:51%;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+.modal-s4yt-contribute-title-text{
+    color:#895734;
+    font-size:125%;
+    width:50%;
+    position:absolute;
+    left:12%;
+    bottom:31%;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+.modal-header {
+    text-align: center;
+    padding-top:20px;
+}
+.more-info-button {
+    border-color: transparent;
+    background-color: transparent;
+    position:absolute;
+    left:55%;
+    bottom:55%;
+}
+
+.modal-percentage-indicator{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    position:absolute;
+    left:15%;
+    bottom:0;
+}
+
+.above-button{
+    color:#895734;
+    font-size:125%;
+    width:50%;
+    position:absolute;
+    left:72%;
+    bottom:41%;
+    font-family: 'Roboto', sans-serif;
+}
+.below-button{
+    color:#895734;
+    font-size:125%;
+    text-align:center;
+    width:25%;
+    position:absolute;
+    left:65%;
+    bottom:20%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.more-info-button img{
+    width:60% !important;
+}
+.contribute-page-button {
+    border-color: transparent;
+    background-color: transparent;
+    position:absolute;
+    left:55%;
+    bottom:29%;
+
+}
+
+.contribute-page-button img{
+    width:60% !important;
+}
+
+.contribute-page-button{
+
+}
