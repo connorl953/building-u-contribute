@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media (min-width: 1080px) {
     div.modal-content {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -187,196 +187,198 @@
 
 
 
+@media (max-width: 1080px) {
 
+    div.modal-content {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
 
-div.modal-content {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    -o-box-shadow: none;
-    box-shadow: none;
-    border-color: transparent;
-}
+    .modal-dialog {
+        padding-top: 5%;
+    }
 
-.modal-dialog {
-    padding-top: 5%;
-}
+    .modal-backdrop {
+        display: none;
+    }
 
-.modal-backdrop {
-    display: none;
-}
+    .custom-modal .modal-content {
+        background-color: transparent;
 
-.custom-modal .modal-content {
-    background-color: transparent;
+    }
 
-}
+    .modal-background {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        content: url("mobile_version/background.png");
+    }
 
-.modal-background {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    content: url("mobile_version/background.png");
-}
+    .modal {
 
-.modal {
+    }
 
-}
+    .modal-close-button {
+        border-color: transparent;
+        background-color: transparent;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 84%;
+        bottom: 91%;
+    }
 
-.modal-close-button {
-    border-color: transparent;
-    background-color: transparent;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 84%;
-    bottom: 91%;
-}
+    .modal-close-button:hover {
+        border-color: transparent;
+        background-color: transparent;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 84%;
+        bottom: 91%;
+    }
 
-.modal-close-button:hover {
-    border-color: transparent;
-    background-color: transparent;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 84%;
-    bottom: 91%;
-}
+    .modal-close-button:active {
+        box-shadow: none !important;
+        border-color: transparent !important;
+        background-color: transparent !important;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 84%;
+        bottom: 91%;
+    }
 
-.modal-close-button:active {
-    box-shadow: none !important;
-    border-color: transparent !important;
-    background-color: transparent !important;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 84%;
-    bottom: 91%;
-}
+    .modal-close-button img {
+        width: 140% !important;
+    }
 
-.modal-close-button img {
-    width: 140% !important;
-}
+    .modal-s4yt-main-title {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 10%;
+        bottom: 70%;
+    }
 
-.modal-s4yt-main-title {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 10%;
-    bottom: 70%;
-}
+    .modal-s4yt-contribute-title {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 25%;
+        bottom: 42%;
+    }
 
-.modal-s4yt-contribute-title {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 25%;
-    bottom: 42%;
-}
+    .modal-logo {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 15%;
+        bottom: 75%;
+    }
 
-.modal-logo {
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 15%;
-    bottom: 75%;
-}
+    .modal-s4yt-main-title-text {
+        color: #895734;
+        font-size: 150%;
+        width: 50%;
+        position: absolute;
+        left: 25%;
 
-.modal-s4yt-main-title-text {
-    color: #895734;
-    font-size: 150%;
-    width: 50%;
-    position: absolute;
-    left: 25%;
+        bottom: 60%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
 
-    bottom: 60%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
+    .modal-s4yt-contribute-title-text {
+        color: #895734;
+        font-size: 150%;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        bottom: 30%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
 
-.modal-s4yt-contribute-title-text {
-    color: #895734;
-    font-size: 150%;
-    width: 50%;
-    position: absolute;
-    left: 25%;
-    bottom: 30%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
+    .modal-header {
+        text-align: center;
+        padding-top: 20px;
+    }
 
-.modal-header {
-    text-align: center;
-    padding-top: 20px;
-}
+    .more-info-button {
+        border-color: transparent;
+        background-color: transparent;
+        position: absolute;
+        left: 25%;
+        bottom: 48%;
+    }
 
-.more-info-button {
-    border-color: transparent;
-    background-color: transparent;
-    position: absolute;
-    left: 25%;
-    bottom: 48%;
-}
+    .more-info-button img {
+        content: url("mobile_version/btn-moreinfo_normal.png");
+    }
 
-.more-info-button img {
-    content: url("mobile_version/btn-moreinfo_normal.png");
-}
+    .more-info-button:active img {
+        content: url("mobile_version/btn-moreinfo_pressed.png");
+    }
 
-.more-info-button:active img {
-    content: url("mobile_version/btn-moreinfo_pressed.png");
-}
+    .modal-percentage-indicator {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 22%;
+        bottom: -3%;
+        content: url("mobile_version/0.png");
+    }
 
-.modal-percentage-indicator {
-    width: 65%;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    left: 22%;
-    bottom: -3%;
-    content: url("mobile_version/0.png");
-}
+    .above-button {
+        color: #895734;
+        font-size: 225%;
+        width: 70%;
+        position: absolute;
+        left: 12%;
+        bottom: 28%;
+        font-family: 'Roboto', sans-serif;
+    }
 
-.above-button {
-    color: #895734;
-    font-size: 225%;
-    width: 70%;
-    position: absolute;
-    left: 12%;
-    bottom: 28%;
-    font-family: 'Roboto', sans-serif;
-}
+    .below-button {
+        color: #895734;
+        font-size: 150%;
+        text-align: center;
+        width: 25%;
+        position: absolute;
+        left: 65%;
+        bottom: 18%;
+        font-family: 'Roboto', sans-serif;
+    }
 
-.below-button {
-    color: #895734;
-    font-size: 150%;
-    text-align: center;
-    width: 25%;
-    position: absolute;
-    left: 65%;
-    bottom: 18%;
-    font-family: 'Roboto', sans-serif;
-}
+    .more-info-button img {
+        width: 100% !important;
+    }
 
-.more-info-button img {
-    width: 100% !important;
-}
+    .contribute-page-button {
+        border-color: transparent;
+        background-color: transparent;
+        position: absolute;
+        left: 10%;
+        bottom: 18%;
+    }
 
-.contribute-page-button {
-    border-color: transparent;
-    background-color: transparent;
-    position: absolute;
-    left: 10%;
-    bottom: 18%;
-}
+    .contribute-page-button img {
+        width: 100% !important;
+    }
 
-.contribute-page-button img {
-    width: 100% !important;
-}
+    .contribute-page-button:active img {
+        content: url("mobile_version/btn-contrib_pressed.png")
+    }
 
-.contribute-page-button:active img {
-    content: url("mobile_version/btn-contrib_pressed.png")
-}
-.contribute-page-button img {
-    content: url("mobile_version/btn-contrib_normal.png")
+    .contribute-page-button img {
+        content: url("mobile_version/btn-contrib_normal.png")
+    }
 }
