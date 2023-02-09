@@ -1,0 +1,169 @@
+:root{
+    --text-color: #8A5A37;
+}
+
+body{
+    background: url("business-template-assets/background.png");
+    background-size: cover;
+}
+
+.doblons-counter-img{
+    position: absolute;
+    left:50%;
+    width:5%;
+    top:3%;
+}
+.doblons-counter{
+    position: absolute;
+    left:55%;
+    width:5%;
+    top:5%;
+}
+.doblons-counter p, h1 {
+    color: var(--text-color);
+    font-family: "Roboto Medium", serif;
+    margin-top:0;
+    margin-bottom:0;
+}
+.doblons-counter h1{
+    font-size:30pt;
+}
+.map-background{
+    position: absolute !important;
+    left:22vw;
+    object-fit: contain;
+    object-position: center;
+    margin-top:10%;
+    width: 50vw;
+    height: auto;
+    padding-bottom:10%;
+}
+
+.s4yt-logo{
+    position: absolute;
+    left:25%;
+    width:20%;
+    top:5%;
+}
+.chat-button{
+    position:absolute;
+    width:10%;
+    top:5%;
+    background: transparent;
+    border-color:transparent;
+    left:60%;
+}
+.chat-button img{
+    width:40%;
+}
+.help-button{
+    position:absolute;
+    width:10%;
+    top:5%;
+    background: transparent;
+    border-color:transparent;
+    left:65%;
+}
+.help-button img{
+    width:40%;
+}
+
+.business-logo-image{
+    position: absolute;
+    top:30%;
+    width: 6%;
+    left:28%;
+}
+.business-title{
+    position: absolute;
+    color: var(--text-color);
+    font-family: "Roboto Medium", serif;
+    top:30%;
+    left:35%;
+}
+.business-description{
+    position: absolute;
+    color: var(--text-color);
+    font-family: "Roboto", serif;
+    font-size:14pt;
+    width: 28%;
+    top:35%;
+    left:35%;
+}
+.video-button{
+    background: transparent;
+    border-color:transparent;
+    position: absolute;
+    top:52%;
+    left:26%;
+}
+.question-button{
+    background: transparent;
+    border-color:transparent;
+    position: absolute;
+    top:60%;
+    left:26%;
+}
+.video-button img{
+    width:70%;
+}
+.question-button img{
+    width:70%;
+}
+.video-button:active img{
+    content: url("business-template-assets/btn-video-pressed.png")
+}
+.question-button:active img{
+    content: url("business-template-assets/btn-question-pressed.png")
+}
+.video-frame{
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    top:48%;
+    left:42%;
+}
+.question-container{
+    background-color: #e6c396;
+    padding-top:2%;
+    padding-bottom:2%;
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top:46%;
+    left:42%;
+}
+.question-container textarea{
+    border-radius:5%;
+
+}
+.question-container p {
+    color: var(--text-color);
+    font-family: "Roboto", serif;
+    font-size:14pt;
+}
+.submit-button{
+    position:relative;
+    width:60%;
+    margin-right:0;
+    padding-right:0;
+    float:right;
+    background: transparent;
+    border-color:transparent;
+    left:10%;
+}
+.submit-button img{
+    width:60%;
+}
+.back-button{
+    background: transparent;
+    border-color:transparent;
+    position: absolute;
+    top:70%;
+    left:19%;
+}
+.back-button img{
+    width: 30%;
+}
+
+
